@@ -1,0 +1,159 @@
+.hero-section {
+    background: linear-gradient(#051329, #051329),
+    url('../bg-bio.jpg') center/cover no-repeat;
+    padding: 140px 0;
+    color: white;
+}
+
+.feature-box {
+    padding: 30px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.feature-box:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+footer {
+    background: #0f172a;
+    color: #cbd5e1;
+}
+
+
+/* FIX: Logo besar tapi navbar tidak ikut membesar */
+.navbar-brand img {
+    height: 200px;               /* ubah sesuai kebutuhan */
+    object-fit: contain;        /* jaga proporsi */
+}
+
+.navbar {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+/* FIX: Teks Navbar lebih besar */
+.nav-link {
+    font-size: 1.2rem;
+}
+
+.navbar-brand {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.custom-navbar {
+    background-color: #051329 !important; /* Ganti dengan warna yang kamu mau */
+}
+
+/* Card utama */
+.adv-card {
+    background: #ffffff;
+    border-radius: 14px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.08);
+    transition: 0.3s ease;
+}
+
+/* Hover effect */
+.adv-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.12);
+}
+
+/* Gambar */
+.adv-img {
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: contain;
+}
+
+/* Judul */
+.advantages-section h4 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.product-card {
+        transition: transform 0.1s ease, box-shadow 0.1s ease;
+        border-radius: 15px;
+        overflow: hidden;
+        background: #ffffff;
+    }
+
+    .product-card:hover {
+        transform: translateY(-8px);
+        box-shadow: 0px 12px 25px rgba(0,0,0,0.15);
+    }
+
+    .product-img-box {
+        overflow: hidden;
+        height: 230px;
+    }
+
+    .product-img-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform .1s ease;
+    }
+
+    .product-card:hover img {
+        transform: scale(1.07);
+    }
+
+    .testimonial-slider {
+    position: relative;
+    overflow: hidden;
+}
+
+/* WRAPPER UNTUK GESER */
+.slides-wrapper {
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+}
+
+/* SETIAP SLIDE (BERISI 2 FEEDBACK) */
+.slide {
+    min-width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+/* EFEK GLASS */
+.glass-card {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.08);
+    border: 1px solid rgba(255,255,255,0.3);
+    width: 45%;
+}
+
+/* DOTS */
+.dots .dot {
+    height: 12px;
+    width: 12px;
+    margin: 0 6px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #cbd3e1;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.dots .dot.active {
+    background: #031126;
+    width: 26px;
+    border-radius: 12px;
+}
