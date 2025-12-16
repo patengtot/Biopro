@@ -37,7 +37,7 @@
                         💬 Chat via WhatsApp
                     </a>
 
-                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=pemasaran@biopro.co.id"
+                    <a href="mailto:pemasaran@biopro.com"
                     target="_blank"
                     class="btn btn-primary w-100 mb-3"
                     style="font-size: 17px;">

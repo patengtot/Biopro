@@ -19,7 +19,6 @@
         <div class="container-fluid">
             <a class="navbar-brand fw-bold d-flex align-items-center" href="/">
                 <img src="/pm.png" alt="Logo" style="height: 100px;" class="me-2">
-                PT BIO PRODUK ABADI
             </a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -56,7 +55,7 @@
                 <div class="col-md-3 mb-4">
                     <h5 class="fw-bold">Kontak</h5>
                     <p class="mt-3 mb-1">📞 Telepon: 0857-9800-6701</p>
-                    <p class="mb-1">📧 admin@biopro.co.id</p>
+                    <p class="mb-1">📧 pemasaran@biopro.co.id</p>
                     <p class="mb-1">🌐 www.biopro.co.id</p>
                 </div>
 
